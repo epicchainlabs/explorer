@@ -1,0 +1,100 @@
+.data-list-container {
+  img {
+    max-height: 24px;
+  }
+}
+
+.data-list > a,
+.data-list > #non-link-list-cell-container {
+  padding: 0px 24px;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  min-height: 45px;
+  background-color: var(--dark-grey);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.block-index-cell {
+  color: var(--pink);
+  letter-spacing: 0.96px;
+}
+
+.txid-index-cell {
+  color: var(--pink);
+  max-width: 180px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 14px;
+  color: #d355e7;
+  letter-spacing: 0;
+}
+
+.data-list-column {
+  padding: 0px 24px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: var(--medium-grey-blue);
+  min-height: 25px;
+}
+
+.data-list {
+  display: grid;
+  grid-row-gap: 8px;
+}
+
+.loading-table-row {
+  opacity: 0.75;
+}
+
+.without-pointer-cursor {
+  cursor: default !important;
+}
+
+.list-header-and-pagination-info-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+// TODO: implement a solution that doesnt cause the list component to rerender
+// a:hover {
+//   opacity: 0.75;
+// }
+// .cellhovered img {
+//   filter: invert(0%);
+// }
+// .cellhovered {
+// }
+.header-cell-container {
+  cursor: pointer;
+}
+.data-list-count-stats {
+  justify-content: flex-end;
+  display: flex;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.data-list-arrow-sort {
+  background-color: inherit;
+  border: none;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .data-list > span,
+  .data-list-column,
+  .txid-index-cell {
+    font-size: 11px;
+  }
+}

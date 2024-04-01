@@ -1,0 +1,20 @@
+#NewsFeed {
+  p {
+    margin: 0;
+  }
+  a {
+    margin-bottom: 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: #96b4c4;
+    align-items: center;
+  }
+  .news-item-container {
+    img {
+      max-width: 50%;
+      max-height: 50px;
+      margin-right: 12px;
+    }
+  }
+}

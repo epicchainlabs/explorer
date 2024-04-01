@@ -1,0 +1,77 @@
+#router-container {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  background-color: #1a2f34;
+}
+
+#router-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.page-container {
+  background-color: #1a2f34;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0 48px 0;
+  flex: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.router-page-container {
+  margin: auto;
+  max-width: 1440px;
+  display: flex;
+  flex: 1;
+  width: 100%;
+  z-index: 0;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.verti {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+$sizes: 1, 2, 3, 4, 5;
+
+@each $size in $sizes {
+  .weight-#{$size} {
+    flex-grow: $size;
+    flex-shrink: unset;
+    flex-basis: 0;
+  }
+}

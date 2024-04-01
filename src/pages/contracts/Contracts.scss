@@ -1,0 +1,41 @@
+#Contracts {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+
+  .contract-name-and-icon-row {
+    display: flex;
+    align-items: center;
+    color: #d355e7;
+    overflow: hidden;
+
+    .contract-icon-container {
+      width: 36px;
+
+      img {
+        max-width: 25px;
+      }
+    }
+
+    .contract-name-label {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+
+  .contract-list-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+  }
+}
+
+.contract-time-cell {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

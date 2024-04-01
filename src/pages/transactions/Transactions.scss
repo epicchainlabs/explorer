@@ -1,0 +1,38 @@
+#Transactions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .neo3-platform-cell {
+    font-size: 16px;
+    color: #88ffad;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 12px;
+      max-width: 29px;
+    }
+  }
+
+  .neo2-platform-cell {
+    font-size: 16px;
+    letter-spacing: 0;
+    display: flex;
+    align-items: center;
+    color: #b0eb3c;
+
+    img {
+      margin-right: 12px;
+      max-width: 29px;
+    }
+  }
+
+  .transaction-list-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+  }
+}

@@ -1,0 +1,185 @@
+#Home {
+  z-index: 10;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+
+  .react-select__control {
+    border-radius: 80px;
+  }
+
+  #inner-home-page-container {
+    margin-top: -24px;
+    padding-top: 24px;
+
+    .full-width-background {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      z-index: -10;
+      margin-top: -24px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+
+      #inner-full-width-container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+      }
+    }
+  }
+
+  .list-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .list-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .list-wrapper {
+    margin: 24px 0;
+    flex: 1;
+    max-width: 590px;
+    padding: 0px;
+    // min-width: 450px;
+  }
+  .label-wrapper {
+    padding: 0 12px;
+    margin-bottom: 24px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    label {
+      font-size: 16px;
+      color: #7d9fb1;
+      letter-spacing: -0.64px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+  }
+
+  #contracts-invocations-container {
+    background: #1a2f34;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -24px;
+    position: relative;
+    padding: 12px;
+
+    .label-wrapper {
+      width: 100%;
+      max-width: 1540px;
+      padding-top: 24px;
+
+      @media screen and (max-width: 768px) {
+        padding: 0;
+      }
+    }
+
+    .invocations-list-wrapper {
+      width: 100%;
+
+      padding-bottom: 48px;
+    }
+  }
+
+  #neoscan-logo {
+    width: 104px;
+  }
+
+  #welcome-text {
+    display: flex;
+    align-items: center;
+  }
+
+  #welcome-text-underscore {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--pink);
+  }
+
+  #neoscan-logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 24px;
+    margin-bottom: 48px;
+
+    h1 {
+      font-size: 42px;
+      font-weight: 500;
+      color: #ffffff;
+      letter-spacing: -1.59px;
+      line-height: 38.02px;
+      text-transform: uppercase;
+      margin: 6px 0 6px 0;
+    }
+
+    span {
+      font-weight: 500;
+      font-size: 18px;
+      color: #597b8d;
+      letter-spacing: 1.09px;
+    }
+  }
+
+  .explore-tx {
+    margin: 12px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #Home {
+    .list-wrapper {
+      max-width: 100% !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .list-row-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #Home {
+    #neoscan-logo-container {
+      max-width: 375px !important;
+      // min-width: 350px !important;
+      padding: 12px;
+      justify-content: center;
+      text-align: center;
+      margin: auto;
+      margin-top: -12px;
+      margin-bottom: 24px;
+
+      h1 {
+        font-size: 29px;
+      }
+
+      label {
+        font-size: 14px;
+        letter-spacing: 0.96px;
+        line-height: 17px;
+      }
+    }
+    #welcome-text-underscore {
+      font-size: 29px;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #Home {
+    .list-wrapper {
+      // max-width: 375px !important;
+      min-width: 325px !important;
+    }
+  }
+}
