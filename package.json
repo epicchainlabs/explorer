@@ -15,7 +15,7 @@
     "bignumber.js": "^9.0.1",
     "bs58check": "^2.1.2",
     "classnames": "^2.2.6",
-    "crypto-js": "^4.0.0",
+    "crypto-js": "^4.2.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
@@ -24,9 +24,9 @@
     "lodash": "^4.17.20",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.20.2",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "neo-convertor": "0.0.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "query-string": "7.0.0",
     "react": "^16.13.1",
     "react-burger-menu": "^2.6.17",
@@ -40,9 +40,9 @@
     "react-test-renderer": "^16.13.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "rss-parser": "^3.8.0",
+    "rss-parser": "^3.13.0",
     "simple-line-icons": "^2.4.1",
-    "victory": "^35.0.9"
+    "victory": "^37.0.1"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.9.0",
@@ -79,7 +79,7 @@
     "gh-pages": "^2.1.1",
     "prettier": "^2.0.5",
     "react-error-overlay": "6.0.9",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^5.0.1",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",
     "typescript": "~4.3.5"
