@@ -1,8 +1,8 @@
 openapi: 3.0.0
 info:
-  description: This is version 1.1 of the Dora API
+  description: This is version 1.1 of the EpicChain Explorer - EpicChain Lab's API
   version: '1.1'
-  title: Dora
+  title: EpicChain Explorer - EpicChain Lab's
   termsOfService: 'https://dora.coz.io/terms/'
   contact:
     email: contact@coz.io
