@@ -127,6 +127,7 @@ workflows:
             tags:
               only: /.*/
       - deploy-develop:
+          context: aws
           requires:
             - test
           filters:
@@ -136,6 +137,7 @@ workflows:
             branches:
               ignore: /.*/
       - deploy-stage:
+          context: aws
           requires:
             - test
           filters:
@@ -152,6 +154,7 @@ workflows:
             branches:
               ignore: /.*/
       - deploy-production:
+          context: aws
           requires:
             - approve-release
           filters:
