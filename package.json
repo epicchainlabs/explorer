@@ -1,5 +1,5 @@
 {
-  "name": "explorer",
+  "name": "dora",
   "version": "0.3.0",
   "private": true,
   "dependencies": {
@@ -20,13 +20,13 @@
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
     "framer-motion": "^4.1.17",
-    "https-browserify": "^1.0.0",
     "identity-obj-proxy": "^3.0.0",
     "lodash": "^4.17.20",
     "material-design-icons": "^3.0.1",
     "material-ui": "^0.20.2",
     "moment": "^2.25.3",
     "neo-convertor": "0.0.2",
+    "node-sass": "^4.14.1",
     "query-string": "7.0.0",
     "react": "^16.13.1",
     "react-burger-menu": "^2.6.17",
@@ -41,10 +41,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "rss-parser": "^3.8.0",
-    "sass": "^1.77.8",
     "simple-line-icons": "^2.4.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
     "victory": "^35.0.9"
   },
   "devDependencies": {
@@ -82,11 +79,10 @@
     "gh-pages": "^2.1.1",
     "prettier": "^2.0.5",
     "react-error-overlay": "6.0.9",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^4.0.3",
     "redux-logger": "^3.0.6",
     "redux-mock-store": "^1.5.4",
-    "typescript": "~4.3.5",
-    "webpack": "^5.93.0"
+    "typescript": "~4.3.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,11 +1,11 @@
 openapi: 3.0.0
 info:
-  description: This is version 1.1 of the EpicChain Explorer - EpicChain Lab's API
+  description: This is version 1.1 of the Dora API
   version: '1.1'
-  title: EpicChain Explorer - EpicChain Lab's
+  title: Dora
   termsOfService: 'https://dora.coz.io/terms/'
   contact:
-    email: support@epicscan.io
+    email: contact@coz.io
   license:
     name: MIT
     url: 'https://opensource.org/licenses/MIT'
