@@ -59,7 +59,7 @@ const NotFound: React.FC<{}> = () => {
 
           <span>If you think Dora is having a bad day please let us know.</span>
           <div className="load-more-button-container">
-            <a href="mailto:contact@coz.io">
+            <a href="mailto:support@epicscan.io">
               <Button primary={false}>contact us</Button>
             </a>
           </div>
